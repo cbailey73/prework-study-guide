@@ -1,0 +1,36 @@
+CSS notes
+
+In-line notes: place css code inside html sections
+<h1 style="color:red;">Prework Study Guide</h1>
+
+Internal Style Sheet: include css code in seperate <style> category in head
+    <head>
+    <style>
+      h1 {
+        color: red;
+      }
+    </style>
+   </head>
+
+External CSS Style Sheet: create <link> to external page inside head
+    <head>
+    <link rel="stylesheet" href="./assests/style.css" />
+    </head>
+    rel indicates the relationship between the linked information and the html page
+    href indicates the location of the information
+
+Command Line: cd assets, then touch "style.css"
+
+Examples:
+    <div {color: blue; text-align:justify;}
+    * = selector applying to all elements on page
+    use a comma to apply two selectors to a css rule {}
+    header,
+    footer {
+        width: 100%;
+        height: 120px;
+        background-color: blue;
+        color: white;
+    }
+
+Class elements allow CSS to apply only to specified elements within the html code
