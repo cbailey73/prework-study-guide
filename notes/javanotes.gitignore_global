@@ -6,4 +6,13 @@ Functions tell the computer to execute specified processes on variables.
 If-else statements allow the computer to choose whether to execute different functions based on the value of a variable.
 Arrays are used to store multiple values within a single variable.
 An index number (starting with 0) gives a value's location within an array.
-for(var x = 0; x < shapes.length; x++) loops apply a function to all the values in an array.
+for (var x = 0; x < shapes.length; x++) loops apply a function to all the values in an array.
+To create a function, first define it as "function" and give it a name immediately folowed by parentheses. 
+After defining the function's name(), list a series of operations to be executed within {}.
+The Math.random() function is used to randomly select a value in an array.
+
+
+
+
+
+var topic = "HTML";
